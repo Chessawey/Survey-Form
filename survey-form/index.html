@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Survey-form</title>
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <div class="form_container">
+        <div class="form">
+          <h2 class="header">SURVEY FORM</h2>
+          <p class="header_text">Let us know</p>
+
+          <div class="cta-form-container">
+            <form class="cta-form" action="thankyou.html" method="GET">
+              <div class="form-control">
+                <label for="name">Full name:
+                  <input name="name" class="name" type="text" placeholder="Your name" id="name" required />
+                </label>
+              </div>
+
+              <div class="form-control">
+                <label for="email">Email address:</label>
+                <input type="email" placeholder="me@example.com" required />
+              </div>
+
+              <div class="radio-button">
+                <label for="choose-one">Gender:</label>
+                <label for="recommed-1">
+                  <input class="radio-input" type="radio" id="recommed-1" name="recommed" required>Male</input>
+                </label>
+                <label for="recommed-2">
+                  <input class="radio-input" type="radio" id="recommed-2" name="recommed" required>Female</input>
+                </label>
+                <label for="recommed-3">
+                  <input class="radio-input" type="radio" id="recommed-3" name="recommed" required>Others</input>
+                </label>
+              </div>
+
+              <div class="form-control">
+                <label for="select-where">How did you know us?</label>
+                <select id="select-where" required>
+                  <option value="">Please choose one</option>
+                  <option value="Facebook">Facebook</option>
+                  <option value="Twitter">Twitter</option>
+                  <option value="Instagram">Instgram</option>
+                  <option value="Youtube">Youtube</option>
+                  <option value="Ad">Ads</option>
+                  <option value="Others">Others</option>
+                </select>
+              </div>
+
+              <div>
+                <div class="second-header">
+                  <label for="">What languages and frameworks you know?
+                  </label>
+                </div>
+
+                <!-- TYPE CHECKBOX -->
+                <div class="checkbox">
+
+                  <label for="input_1">
+                    <input type="checkbox" name="input" /> Python
+                  </label>
+                  <label for="input_2">
+                    <input type="checkbox" name="input" /> Java
+                  </label>
+                  <label for="input_3">
+                    <input type="checkbox" name="input" /> Javascript
+                  </label>
+                  <label for="input_4">
+                    <input type="checkbox" name="input" /> Go
+                  </label>
+                  <label for="input_5">
+                    <input type="checkbox" name="input" /> Swift
+                  </label>
+                  <label for="input_6">
+                    <input type="checkbox" name="input" /> C#
+                  </label>
+                  <label for="input_7">
+                    <input type="checkbox" name="input" /> C
+                  </label>
+                  <label for="input_7">
+                    <input type="checkbox" name="input" /> C++
+                  </label>
+                </div>
+
+              </div>
+
+              <div class="comment-box">
+                <label for="comment and suggestions">Comments and suggestions</label>
+              </div>
+
+              <!-- for comment and suggestions -->
+              <div class="text-area-box">
+                <textarea name="comment" id="comment" placeholder="Type you comments here"></textarea>
+              </div>
+
+              <!-- button -->
+              <div class="btn-holder">
+              </div>
+              <a href="#"><input type="submit" id="submit" class="btn-submit"></a>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="index.js"></script>
+</body>
+
+</html>

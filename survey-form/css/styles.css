@@ -11,7 +11,7 @@ html {
 body {
   font-family: "Jost", sans-serif;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 200;
   color: #876445;
   background-image: url('../images/marble.jpg');
   text-align: center;
@@ -23,7 +23,7 @@ body {
 
 }
 
-.form_container {
+.form-container {
   line-height: 2.5;
   padding: 2.8rem 0 2.8rem 0;
 }
@@ -38,13 +38,13 @@ body {
 }
 
 .header {
-  font-size: 3rem;
+  font-size: 2rem;
   padding-bottom: 1rem;
-  margin-top: -4rem;
+  margin-top: -2rem;
 }
 
 .header_text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 2.5rem;
   line-height: 1.8rem;
   margin-bottom: 1rem;
@@ -63,7 +63,7 @@ body {
 }
 
 .cta-form label {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 500;
   margin-bottom: 1.2rem;
   margin-top: -8rem;
@@ -74,7 +74,7 @@ input,
   width: 100%;
   padding: 1.2rem;
   margin-left: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: inherit;
   color: #333;
   border: none;
@@ -87,11 +87,19 @@ input,
   text-align: left;
   margin-bottom: 2.5rem;
   margin-top: -2rem;
+  padding-bottom: 2rem;
 }
 
 .radio-button {
   text-align: left;
   margin-bottom: 3rem;
+  margin-top: -2rem;
+}
+
+#recommend-1,
+#recommend-2,
+#recommend-3 {
+  accent-color: #876445;
 }
 
 .radio-button input {
@@ -102,7 +110,7 @@ input,
   text-align: left;
   margin-bottom: 2.5rem;
   padding-top: 2.5rem;
-  margin-top: -3rem;
+  margin-top: -4.5rem;
 }
 
 .checkbox {
@@ -115,8 +123,13 @@ input,
   width: auto;
 }
 
+#input {
+  accent-color: #876445;
+}
+
 .comment-box {
   text-align: left;
+  margin-top: -1.5rem;
 }
 
 .text-area-box textarea {
